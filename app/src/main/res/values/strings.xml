@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FloatView</string>
+    <string name="open_float_view">开起悬浮窗</string>
+</resources>
