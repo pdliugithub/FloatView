@@ -105,7 +105,7 @@ public final class DragTextView extends AppCompatTextView {
                 break;
             case MotionEvent.ACTION_MOVE:
 
-                int dx = (int) (event.getRawY() - mStartX);
+                int dx = (int) (event.getRawX() - mStartX);
                 int dy = (int) (event.getRawY() - mStartY);
                 if ((dx * dx + dy * dy) > mTouchSlop) {
                     isDragging = true;
